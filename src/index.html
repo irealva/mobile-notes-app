@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Notes App</title>
+
+    <!-- build:css -->
+    <link rel="stylesheet" href="bower_modules/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css">
+     <!-- endbuild -->
+
+    <!-- build:js -->
+    <script src="bower_modules/jquery/dist/jquery.min.js"></script>
+    <script src="bower_modules/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="app/app.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!-- Home -->
+    <div data-role="page" id="home">
+        <div data-role="header" data-position="fixed">
+            <h1>Your Notes</h1>
+            <a href="new.html" data-icon="action" class="ui-btn-right ui-icon-action" data-transition="slide">New</a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" class="notes-listview"></ul>
+        </div>
+    </div>
+    <!-- /Home -->
+</body>
+
+</html>

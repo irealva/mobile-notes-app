@@ -1,0 +1,12 @@
+{
+  "name": "mobile-notes",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "jquery-mobile-bower": "1.4.5",
+    "jquery": "1.11.2"
+  },
+  "resolutions": {
+    "jquery": "1.11.2"
+  }
+}
