@@ -4,14 +4,14 @@ Simple note-taking application for mobile web. App lets users create, edit, and 
 
 Link to live page: [http://irealva.github.io/mobile-notes-app/dist/index.html](http://irealva.github.io/mobile-notes-app/dist/index.html)
 
-###### What you need:
+#### What you need:
 npm
 
 Bower
 
 Gulp
 
-######To create the development version, from the root folder:
+####To create the development version, from the root folder:
 
 1) Install the dependencies into the local node_modules folder, based on the package.json file
 
